@@ -38,6 +38,7 @@ function loadDataTable() {
     })
 }
 
+// Delete Event - use swal for popup
 function Delete(url) {
     swal({
         title: "Are you sure",
